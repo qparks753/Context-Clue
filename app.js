@@ -4,7 +4,7 @@ $(document).ready(function () {
     var weapons = ["Knife", "Gun", " Sword", " Bat", "Poison", "Car", "Dogs", "Fish", "Banana", "Rope", "Spear", "Crossbow", "Sling", "Spear", "Pack of wild piranhas", "Hotdog Bun", "Fire", "Cannon", "Basketball", "Oil"];
     var locations = ["Home", "Break room", "Office", "Sidewalk", "Lobby", "Cafeteria", "Swimming Pool", "Roof", "Balcony", "Suite"];
  
- for (var i=1; i <100;i++){
+ for (var i=1; i <101;i++){
     var h3 = $("<h3></h3>").text(`Accusation${i}`);
     $("body").append(h3);
     $(h3).attr('id', 'h3');
